@@ -21,8 +21,8 @@ function Navbar(){
             <div>Matthew_Bandos_Site</div>
 
             {/*Hamburger Icon*/}
-            <div onClick={toggleMenu}>
-                <span>≡</span>
+            <div className="hamburger" onClick={toggleMenu}>
+                <span>{isOpen ? 'x' : '≡'}</span>
             </div>
 
             {/*Computer Navigation Links*/}
@@ -37,7 +37,7 @@ function Navbar(){
 
             {/*For Hamburger Menu Popup*/}
             {isOpen && (
-                <div>
+                <div className="mobile-menu">
                     <ul>
                         <li><a href="#about" onClick={closeMenu}>About</a></li>
                         <li><a href="#skills" onClick={closeMenu}>Skills</a></li>
