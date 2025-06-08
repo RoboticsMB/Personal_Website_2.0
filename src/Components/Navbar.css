@@ -14,6 +14,7 @@
     justify-content: space-between;
     align-items: center;
     color: white;
+    padding-right: 1.5rem;
 }
 
 /*For all ul elements inside navbar container div*/
@@ -36,8 +37,8 @@
     position: fixed;
     top: 0;
     right: 0;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     background-color: #0b3e86;
     display: flex;
     flex-direction: column;
