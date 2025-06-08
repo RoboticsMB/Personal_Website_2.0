@@ -13,10 +13,22 @@
 }
 
 .landing-page > h1{
+    font-size: 4rem;
     color: #71acff;
 }
 
 .information-links a{
     text-decoration: none;
     color: white;
+}
+
+.scroll-arrow{
+    color: white;
+    text-decoration: none;
+    animation: bounce 1.25s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {transform: translateY(0);}
+    50% { transform: translateY(.25rem);}
 }
