@@ -1,10 +1,22 @@
 .landing-page{
-  text-align: center;
-  background: #0b3e86;
-  color: white;
+    height: 93vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1rem;
+    box-sizing: border-box;
+    background: #0b3e86;
+    color: white;
+    overflow: hidden;
+}
+
+.landing-page > h1{
+    color: #71acff;
 }
 
 .information-links a{
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
