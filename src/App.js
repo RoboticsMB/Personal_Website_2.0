@@ -1,20 +1,12 @@
 import './App.css';
 import Navbar from './Components/Navbar'
+import LandingPage from './Components/LandingPage'
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <section id="landing-page" classname="landing-page">
-        <h1>Matthew Bandos</h1>
-        <h2>Student • Software Engineer • Researcher • Creator</h2>
-        <p>"Learning never exhausts the mind." - Leonardo da Vinci </p>
-        <div classname = "information-links">
-          <a href="https://github.com/RoboticsMB" target="_blank" rel="noopener noreferrer">Github</a>
-          <a href="https://www.linkedin.com/in/matthew-bandos-4646ab316" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a href="/Bandos M Resume 2025.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
-        </div>
-      </section>
+      <LandingPage />
       <section id="about">
         <h2>About Me</h2>
         <p>I am passionate software engineer with a strong foundation in Computer Science and a passion for learning</p>
