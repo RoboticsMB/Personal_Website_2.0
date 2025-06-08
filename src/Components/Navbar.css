@@ -1,3 +1,4 @@
+/*Overarching navbar class <nav>*/
 .navbar{
     position: sticky;
     top: 0;
@@ -7,12 +8,14 @@
     z-index: 1000;
 }
 
+/*Settings for the encompassing div*/
 .navbar-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+/*For all ul elements inside navbar container div*/
 .navbar-container ul{
     display: flex;
     gap: 1.5rem;
@@ -21,17 +24,13 @@
     padding: 0;
 }
 
+/*For all a elements inside navbar container div*/
 .navbar-container a{
     text-decoration: none;
     color: white;
 }
 
-.navbar-container div span{
-    font-size: 2rem;
-    cursor: pointer;
-}
-
-
+/*Settings for the encompassing mobile menu div*/
 .mobile-menu{
     position: fixed;
     top: 0;
@@ -46,12 +45,14 @@
     z-index: 9999;
 }
 
+/*For all ul elements inside mobile-menu div*/
 .mobile-menu ul{
     list-style: none;
     text-align: center;
     padding: 0;
 }
 
+/*For all li elements inside mobile-menu div*/
 .mobile-menu li{
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
@@ -59,18 +60,21 @@
     margin-right: 0;
 }
 
+/*For all a elements inside mobile-menu div*/
 .mobile-menu a{
     font-size: 2rem;
     color: white;
     text-decoration: none;
 }
 
+/*Makes cursor become pointer when at hamburger*/
 .hamburger{
     display: none;
     font-size: 2rem;
     cursor: pointer;
 }
 
+/*Settings for when screen too small*/
 @media (max-width: 768px){
     .navbar-container ul{
         display: none;
