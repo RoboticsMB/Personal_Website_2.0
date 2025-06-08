@@ -31,8 +31,7 @@ function LandingPage(){
                     repeat={Infinity}
                 />
             </h2>
-
-            <p>"Learning never exhausts the mind." - Leonardo da Vinci </p>
+            <p className="quote">"Learning never exhausts the mind." - Leonardo da Vinci </p>
             <div className = "information-links">
                 <a href="https://github.com/RoboticsMB" target="_blank" rel="noopener noreferrer">Github</a>
                 <a href="https://www.linkedin.com/in/matthew-bandos-4646ab316" target="_blank" rel="noopener noreferrer">LinkedIn</a>

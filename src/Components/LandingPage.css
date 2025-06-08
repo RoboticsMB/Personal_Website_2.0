@@ -17,15 +17,46 @@
     color: #71acff;
 }
 
+.quote{
+    color: white;
+    opacity: 0;
+    transform: translateY(1rem);
+    animation: fadeSlideUp 1s ease-out forwards;
+    animation-delay: 1.5s;
+}
+
 .information-links a{
+    opacity: 0;
+    transform: translateY(1rem);
+    animation: fadeSlideUp 1s ease-out forwards;
+    animation-delay: 4s;
     text-decoration: none;
     color: white;
 }
 
 .scroll-arrow{
+    opacity: 0;
+    transform: translateY(1rem);
+    animation: fadeIn 1s ease-out forwards;
     color: white;
     text-decoration: none;
-    animation: bounce 1.25s infinite;
+    animation-name: bounce, fadeIn;
+    animation-duration: 1.5s, 1s;
+    animation-iteration-count: infinite, 1;
+    animation-delay: 0s, 5s;
+}
+
+@keyframes fadeSlideUp{
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn{
+    to{
+        opacity: 1;
+    }
 }
 
 @keyframes bounce {
