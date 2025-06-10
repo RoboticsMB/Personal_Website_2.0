@@ -13,11 +13,17 @@
 }
 
 .landing-page > h1{
+    margin: 0;
     font-size: 4rem;
     color: #71acff;
 }
 
+.landing-page > h2{
+    margin: 0;
+}
+
 .quote{
+    margin-bottom: 2rem;
     color: white;
     opacity: 0;
     transform: translateY(1rem);
@@ -26,6 +32,7 @@
 }
 
 .information-links a{
+    margin: 2rem;
     opacity: 0;
     transform: translateY(1rem);
     animation: fadeSlideUp 1s ease-out forwards;
@@ -34,7 +41,13 @@
     color: white;
 }
 
+.information-links a:hover{
+    transform: scale(1.5);
+}
+
 .scroll-arrow{
+    font-size: 2rem;
+    margin: 1rem;
     opacity: 0;
     transform: translateY(1rem);
     animation: fadeIn 1s ease-out forwards;

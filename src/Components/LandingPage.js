@@ -1,5 +1,8 @@
 import './LandingPage.css';
 import { TypeAnimation } from 'react-type-animation';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faFileAlt } from '@fortawesome/free-solid-svg-icons'
 
 function LandingPage(){
     return (
@@ -33,9 +36,15 @@ function LandingPage(){
             </h2>
             <p className="quote">"Learning never exhausts the mind." - Leonardo da Vinci </p>
             <div className = "information-links">
-                <a href="https://github.com/RoboticsMB" target="_blank" rel="noopener noreferrer">Github</a>
-                <a href="https://www.linkedin.com/in/matthew-bandos-4646ab316" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                <a href="/Bandos%20M%20Resume%202025.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+                <a href="https://github.com/RoboticsMB" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={faGithub} size="2x"/>
+                </a>
+                <a href="https://www.linkedin.com/in/matthew-bandos-4646ab316" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={faLinkedin} size="2x"/>
+                </a>
+                <a href="/Bandos%20M%20Resume%202025.pdf" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={faFileAlt} size="2x"/>
+                </a>
             </div>
             <a href="#about" className="scroll-arrow" aria-label="Scroll to About Me">↓</a>
         </section>
