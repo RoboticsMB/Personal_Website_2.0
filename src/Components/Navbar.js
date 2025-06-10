@@ -1,9 +1,10 @@
-import React, {useState} from 'react'
+import React, { useState, useEffect } from 'react'
 import './Navbar.css';
 
 function Navbar(){
     //state tracker for hamburger menu
     const[isOpen, setIsOpen] = useState(false);
+    const[scrolled, setScrolled] = useState(false);
 
     //switches states
     function toggleMenu(){
@@ -15,10 +16,22 @@ function Navbar(){
         setIsOpen(false);
     }
 
+    //Tracks Position of Navigation Bar
+    useEffect(() => {
+        const handleScroll = () => {
+            setScrolled(window.scrollY > 0);
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
   return (
-      <nav className="navbar">
+      <nav className={`navbar ${scrolled ? 'navbar-scrolled' : ''}`}>
         <div className="navbar-container">
-            <div>Matthew_Bandos_Site</div>
+            <div className="navbar-header">
+                <p>Matthew Bandos</p>
+            </div>
 
             {/*Hamburger Icon*/}
             <div className="hamburger" onClick={toggleMenu}>
