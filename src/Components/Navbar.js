@@ -19,7 +19,7 @@ function Navbar(){
     //Tracks Position of Navigation Bar
     useEffect(() => {
         const handleScroll = () => {
-            setScrolled(window.scrollY > 0);
+            setScrolled(window.scrollY > 100);
         };
 
         window.addEventListener('scroll', handleScroll);
