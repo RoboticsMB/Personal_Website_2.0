@@ -5,11 +5,13 @@
 .about-container{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4rem;
+}   
 
 .about-image{
+    margin-left: 25%;
     max-width: 15rem;
 }
 
@@ -18,4 +20,9 @@
     aspect-ratio: 1/1;
     border-radius: 50%;
     object-fit: cover;
+}
+
+.about-text{
+    max-width: 40rem;
+    text-align: left;
 }
