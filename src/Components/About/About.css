@@ -1,0 +1,21 @@
+.about-section h2{
+    text-align: center;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-image{
+    max-width: 15rem;
+}
+
+.about-image img{
+    width: 15rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    object-fit: cover;
+}

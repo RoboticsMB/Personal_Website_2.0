@@ -15,7 +15,7 @@
     padding-top: 0.1rem;
     padding-bottom: 0.1rem;
     transition: background-color 0.3 ease, color 0.3s ease;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 .2rem .4rem rgba(0,0,0,0.1);
     transition: all 0.3s ease
 }
 
