@@ -2,7 +2,7 @@ import './About.css';
 function About(){
     return (
         <section id="about" className="about-section">
-            <h2>About Me</h2>
+            <h2>About <span className="color-me">Me</span></h2>
             <div className="about-container">
                 <div className="about-image"><img src="./Matthew_Bandos_Photo.jpg" alt="Matthew Bandos"/>
                 </div>

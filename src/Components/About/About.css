@@ -5,6 +5,10 @@
     padding-bottom: 2rem;
 }
 
+.color-me{
+    color: #0b3e86;
+}
+
 .about-container{
     display: flex;
     flex-direction: row;
