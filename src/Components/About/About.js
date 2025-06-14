@@ -4,8 +4,7 @@ function About(){
         <section id="about" className="about-section">
             <h2>About Me</h2>
             <div className="about-container">
-                <div className="about-image">
-                    <img src="./Matthew_Bandos_Photo.jpg" alt="Matthew Bandos"/>
+                <div className="about-image"><img src="./Matthew_Bandos_Photo.jpg" alt="Matthew Bandos"/>
                 </div>
                 <div className="about-text">
                     <p>I am Matthew Bandos, a college student passionate about computer science and robotics. 

@@ -1,28 +1,46 @@
 .about-section h2{
     text-align: center;
+    font-size: 2.5rem;
+    padding-top: 2rem;  
+    padding-bottom: 2rem;
 }
 
 .about-container{
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 4rem;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size: 1rem;
 }   
 
 .about-image{
-    margin-left: 25%;
-    max-width: 15rem;
+    justify-content: center;
+    align-items: center;
+    max-width: 20rem;
 }
 
 .about-image img{
-    width: 15rem;
+    width: 20rem;
     aspect-ratio: 1/1;
     border-radius: 50%;
     object-fit: cover;
 }
 
 .about-text{
-    max-width: 40rem;
+    max-width: 35rem;
     text-align: left;
+    line-height: 1.75rem;
+    color: #545555;
+}
+
+@media (max-width: 768px){
+    .about-container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-text{
+        text-align: center;
+    }
 }
