@@ -17,12 +17,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 4rem;
 }
 
 .skill-category{
     background-color: white;
     box-shadow: 0 .2rem .4rem rgba(0,0,0,0.1);
-    width: 15rem;
+    width: 25rem;
     padding: 1rem;
     transition: box-shadow 0.3s ease;
 }
@@ -31,6 +32,19 @@
     box-shadow: 0 .5rem 1rem rgba(0,0,0,0.1);
 }
 
-.skill-category h4{
+.skill-category h3{
     color: #145fe1;
+}
+
+.skill-category ul{
+    padding-left: 1rem;
+}
+
+.skill-category li::marker{
+    color: #145fe1;
+    font-size: 1.5rem;
+}
+
+.skill-category li{
+    color: #545555;
 }

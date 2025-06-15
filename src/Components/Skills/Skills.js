@@ -6,7 +6,7 @@ function Skills(){
         <h2>My <span className="color-Skills">Skills</span></h2>
         <div className="skills-container">
           <div className="skill-category">
-            <h4>Programming Languages</h4>
+            <h3>Programming Languages</h3>
             <ul>
               <li>Python</li>
               <li>C#</li>
@@ -16,7 +16,27 @@ function Skills(){
             </ul>
           </div>
           <div className="skill-category">
-            <h4>Web Development</h4>
+            <h3>Tooling and Workflow</h3>
+            <ul>
+              <li>Git</li>
+              <li>Bash</li>
+              <li>Github</li>
+              <li>Bitbucket</li>
+              <li>Jira</li>
+            </ul>
+          </div>
+          <div className="skill-category">
+            <h3>Data and Scientific Computing</h3>
+            <ul>
+              <li>MATLAB</li>
+              <li>Matplotlib</li>
+              <li>NumPy</li>
+              <li>Pandas</li>
+              <li>GeoPandas</li>
+            </ul>
+          </div>
+          <div className="skill-category">
+            <h3>Web Development</h3>
             <ul>
               <li>HTML</li>
               <li>CSS</li>
@@ -25,33 +45,24 @@ function Skills(){
             </ul>
           </div>
           <div className="skill-category">
-            <h4>Data and Scientific Computing</h4>
-            <ul>
-              <li>Numpy</li>
-              <li>Pandas</li>
-              <li>Geopandas</li>
-              <li>Matplotlib</li>
-            </ul>
-          </div>
-          <div className="skill-category">
-            <h4>Automation and Testing</h4>
+            <h3>Automation and Testing</h3>
             <ul>
               <li>Playwright</li>
+              <li>RabbitMQ</li>
               <li>Selenium</li>
               <li>BeautifulSoup</li>
             </ul>
           </div>
           <div className="skill-category">
-            <h4>Tooling and Workflow</h4>
+            <h3>Communication and Languages</h3>
             <ul>
-              <li>Git</li>
-              <li>Bash</li>
-              <li>RabbitMQ</li>
-              <li>Github</li>
-              <li>Bitbucket</li>
-              <li>Jira</li>
+              <li>Techincal Writing</li>
+              <li>English</li>
+              <li>Ukrainian</li>
+              <li>Russian</li>
             </ul>
           </div>
+
         </div>
       </section>
     )
