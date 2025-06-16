@@ -16,7 +16,7 @@ function Skills(){
             </ul>
           </div>
           <div className="skill-category">
-            <h3>Tooling and Workflow</h3>
+            <h3>Tooling & Workflow</h3>
             <ul>
               <li>Git</li>
               <li>Bash</li>
@@ -26,7 +26,7 @@ function Skills(){
             </ul>
           </div>
           <div className="skill-category">
-            <h3>Data and Scientific Computing</h3>
+            <h3>Data & Scientific Computing</h3>
             <ul>
               <li>MATLAB</li>
               <li>Matplotlib</li>
@@ -45,7 +45,7 @@ function Skills(){
             </ul>
           </div>
           <div className="skill-category">
-            <h3>Automation and Testing</h3>
+            <h3>Automation & Testing</h3>
             <ul>
               <li>Playwright</li>
               <li>RabbitMQ</li>
@@ -54,7 +54,7 @@ function Skills(){
             </ul>
           </div>
           <div className="skill-category">
-            <h3>Communication and Languages</h3>
+            <h3>Communication & Languages</h3>
             <ul>
               <li>Techincal Writing</li>
               <li>English</li>
