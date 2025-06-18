@@ -69,18 +69,18 @@ function Experience(){
         }
     ];
     return (
-        <section id="experienec">
-            <h2>Work Experience</h2>
+        <section id="experience" className="experience-section">
+            <h2>Work <span className="color-experience">Experience</span></h2>
             <div className="timeline">
                 {experiences.map((exp, index) => (
                     <div className="timeline-item" key={index}>
                         <div className="timeline-dot"/>
                         <div className="timeline-content">
                             <h3>{exp.title}</h3>
-                            <p>{exp.company}</p>
+                            <h4>{exp.company}</h4>
                             <p>{exp.location} {exp.date}</p>
                             <p>{exp.summary}</p>
-                            <p>Key Responsibilites:</p>
+                            <h5>Key Responsibilites:</h5>
                             <ul>
                                 {exp.responsibilites.map((res, idx) => (
                                     <li key={idx}>{res}</li>
