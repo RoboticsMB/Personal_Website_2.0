@@ -7,15 +7,15 @@
     text-align: center;
     padding: 2rem 1rem;
     box-sizing: border-box;
-    background: #0b3e86;
+    background: #28296a;
     color: white;
     overflow: hidden;
 }
 
-.landing-page > h1{
+.landing-page h1{
     margin: 0;
     font-size: 4rem;
-    color: #71acff;
+    color: #86b6fa;
 }
 
 .landing-page > h2{
