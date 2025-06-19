@@ -21,7 +21,8 @@
 }
 
 .navbar-header{
-    font-weight: bold;
+    font-weight: 700;
+    text-shadow: .025rem 0 0 currentColor;
 }
 
 .navbar.navbar-scrolled .navbar-header{
@@ -55,7 +56,7 @@
 }
 
 .navbar.navbar-scrolled .navbar-container a{
-    color: black;
+    color: #545555;
 }
 
 /*Settings for the encompassing mobile menu div*/

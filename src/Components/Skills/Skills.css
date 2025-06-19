@@ -38,6 +38,8 @@
 }
 
 .skill-category h3{
+    font-weight: 700;
+    text-shadow: .025rem 0 0 currentColor;
     color: #145fe1;
 }
 
