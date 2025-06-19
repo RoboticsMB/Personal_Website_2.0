@@ -1,4 +1,6 @@
 import './Experience.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLocationDot, faCalendarDays } from '@fortawesome/free-solid-svg-icons'
 
 function Experience(){
     const experiences = [
@@ -76,11 +78,14 @@ function Experience(){
                     <div className="timeline-item" key={index}>
                         <div className="timeline-dot"/>
                         <div className="timeline-content">
-                            <h3>{exp.title}</h3>
-                            <h4>{exp.company}</h4>
-                            <p>{exp.location} {exp.date}</p>
+                            <h3 className="job-title">{exp.title}</h3>
+                            <h4 className="company-name">{exp.company}</h4>
+                            <p className="meta">
+                                <FontAwesomeIcon icon={faLocationDot} size=".5x"/> {exp.location}
+                                <FontAwesomeIcon icon={faCalendarDays} size=".5x"/> {exp.date}
+                            </p>
                             <p>{exp.summary}</p>
-                            <h5>Key Responsibilites:</h5>
+                            <p className="responsibilities-label">Key Responsibilites:</p>
                             <ul>
                                 {exp.responsibilites.map((res, idx) => (
                                     <li key={idx}>{res}</li>
