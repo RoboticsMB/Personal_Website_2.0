@@ -1,39 +1,51 @@
 import './TechnicalProjects.css'
 
 function TechnicalProjects(){
+    const projects = [
+        {
+            title: "This Website",
+            details: ["A responsive personal website showcasing my skills, projects, and experiences. Built from the ground up, completely from scratch"],
+            language: "React",
+            codeBase: "https://github.com/RoboticsMB/Personal_Website_2.0"
+        },
+        {
+            title: "Research Group Scripts",
+            details: ["20+ Automated Data Scrapers", "10+ Data Pipelines", "Several Data Analysis Tools"],
+            language: "Python",
+            codeBase: "RESTRICTED"
+        },
+        {
+            title: "Robotics Club CodeBase",
+            details: ["Software Integration for 90lb robot", "5k+ lines for code architecture/yr", "Code Base: 2022, 2023, 2024"
+            ],
+            language: "C++ & Java",
+            codeBase: "https://github.com/quasics/quasics-frc-sw-2015/tree/master"
+        },
+        {
+            title: "Smaller Projects",
+            details: ["Physics Homework Solver", "Google Forms to Canvas Converter", "Tennis Court Reserver", "Southwest Airline Reserver"],
+            language: "Python",
+            codeBase: "https://github.com/RoboticsMB"
+        },
+
+    ]
     return (
-        <section id="technicalprojects">
-            <h2>Technical Projects</h2>
+        <section id="technicalprojects" className="technicalprojects-section">
+            <h2>Technical <span className="color-projects">Projects</span></h2>
+            <div className="projects">
+                {projects.map((prj, index) => (
+                    <div className="project-item" key={index}>
+                        <div className="project-content">
+                            <h3 className="project-title">{prj.title}</h3>
+                            <p className="project-details">{prj.details}</p>
+                            <p className="project-language">{prj.language}</p>
+                            <p className="project-codebase">{prj.codeBase}</p>
+                        </div>
+                    </div>
+                ))}
+            </div>
 
-            <h4>This Website</h4>
-            <p>MAYBE DROPDOWN DESCRIPTION FOR CONSISTENCY?</p>
-            <p>A responsive personal website showcasing my skills, projects, and experiences</p>
-            <p>React</p>
-            <p>Code Base: Link</p>
-
-            <h4>Research Group Scripts</h4>
-            <p>DROPDOWN Stats</p>
-            <p>20+ Automated Data Scrapers</p>
-            <p>10+ Data Pipelines</p>
-            <p>Python</p>
-            <p>Code Base: Restricted</p>
-
-            <h4>Robotics Club Codebase</h4>
-            <p>DROPDOWN Stats</p>
-            <p>Software Integration for 90lb robot</p>
-            <p>5k+ lines for code architecture/yr</p>
-            <p>C++ & Java</p>
-            <p>Code Base: Link</p>
-
-            <h4>Smaller Projects</h4>
-            <p>DROPDOWN</p>
-            <p>Physics Brute Force Solver</p>
-            <p>Google Forms to Canvas Converter</p>
-            <p>Tennis Court Reservation Script</p>
-            <p>Southwest Airline Reservation Script</p>
-            <p>Python</p>
-            <p>Code Base: Link to Github</p>
-      </section>
+        </section>
     )
 }
 
