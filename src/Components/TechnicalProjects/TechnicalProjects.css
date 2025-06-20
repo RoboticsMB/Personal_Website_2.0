@@ -12,3 +12,63 @@
 .color-projects{
     color: #145fe1;
 }
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.project-item{
+    color: #545555;
+    background-color: white;
+    box-shadow: 0 .2rem .4rem rgba(0,0,0,0.1);
+    border-radius: .5rem;
+    flex: 1 1 30rem;
+    max-width: 50rem;
+    min-width: 10rem;
+    transition: box-shadow 0.3s ease;
+}
+
+.project-item:hover{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,0.1);
+}
+
+.project-title-container{
+    background-color: #d8e7ff;
+    padding: 4rem;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    text-align: center;
+}
+
+.project-title{
+    font-weight: 700;
+    text-shadow: .025rem 0 0 currentColor;
+    font-size: 1.4rem;
+    color: #363898;
+}
+
+.project-tags{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.project-tag{
+    font-size: .9rem;
+    padding: .5rem;
+    color: #363898;
+    background-color: #d8e7ff;
+    border-radius: 1rem;
+}
+
+.project-tag:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
