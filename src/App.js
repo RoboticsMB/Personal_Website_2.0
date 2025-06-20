@@ -4,7 +4,8 @@ import LandingPage from './Components/LandingPage/LandingPage'
 import About from './Components/About/About'
 import Skills from './Components/Skills/Skills'
 import Experience from './Components/Experience/Experience'
-import ResearchProjects from './Components/ResearchProjects/ResearchProjects';
+// import ResearchProjects from './Components/ResearchProjects/ResearchProjects';
+import TechnicalProjects from './Components/TechnicalProjects/TechnicalProjects';
 import Education from './Components/Education/Education'
 import Contact from './Components/Contact/Contact'
 
@@ -16,7 +17,7 @@ function App() {
       <About/>
       <Skills/>
       <Experience/>
-      <ResearchProjects/>
+      <TechnicalProjects/>
       <Education/>
       <Contact/>
     </div>
