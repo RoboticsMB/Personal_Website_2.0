@@ -27,7 +27,7 @@ function TechnicalProjects(){
         },
         {
             title: "Mini-Projects",
-            overview: "Personal endeavors for simplifying/optimizing various tasks",
+            overview: "Personal project endeavors for simplifying and optimizing various tasks.",
             details: ["Physics Homework Solver", "Google Forms to Canvas Converter", "Tennis Court Reserver", "Southwest Airline Reserver"],
             language: "Python",
             codeBase: "https://github.com/RoboticsMB"
@@ -53,10 +53,16 @@ function TechnicalProjects(){
                                     </span>
                                 ))}
                             </div>
-                            <p className="project-language">{prj.language}</p>
-                            <a href={prj.codeBase} className="github-icon" target="_blank" rel="noreferrer">
-                                <FontAwesomeIcon icon={faGithub} size="1x"/>
-                            </a>
+                            <div className="project-metadata">
+                                <span className="project-language">{prj.language}</span>
+                                {prj.codeBase !== "RESTRICTED" ? (
+                                    <a href={prj.codeBase} className="github-icon" target="_blank" rel="noreferrer">
+                                        <FontAwesomeIcon icon={faGithub} size="1x"/> Code
+                                    </a>
+                                ) : (
+                                    <span className="github-icon-restricted">Code Restricted</span>
+                                )}
+                            </div>
                         </div>
                     </div>
                 ))}
