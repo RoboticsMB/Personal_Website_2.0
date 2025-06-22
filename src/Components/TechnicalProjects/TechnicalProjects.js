@@ -51,7 +51,7 @@ function TechnicalProjects(){
                                     <span className="project-tag" key={i}>
                                         {detail}
                                     </span>
-                                ))} 
+                                ))}
                             </div>
                             <p className="project-language">{prj.language}</p>
                             <a href={prj.codeBase} className="github-icon" target="_blank" rel="noreferrer">
