@@ -4,7 +4,7 @@
     top: 0;
     width: 100%;
     font-size: 1rem;
-    background-color: #28296a;
+    background-color: #0c2a5e;
     padding-top: 1rem;
     padding-bottom: 1rem;
     z-index: 1000;
@@ -66,7 +66,7 @@
     right: 0;
     height: 100%;
     width: 100%;
-    background-color: #28296a;
+    background-color: #0c2a5e;
     display: flex;
     flex-direction: column;
     align-items: center;
