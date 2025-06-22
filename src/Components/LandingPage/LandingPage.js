@@ -42,7 +42,7 @@ function LandingPage(){
                 <a href="https://www.linkedin.com/in/matthew-bandos-4646ab316" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faLinkedin} size="2x"/>
                 </a>
-                <a href="/Bandos%20M%20Resume%202025.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="/bandos-m-resume-2025.pdf" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faFileAlt} size="2x"/>
                 </a>
             </div>
