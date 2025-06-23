@@ -19,10 +19,10 @@
     justify-content: center;
     gap: 2rem;
     font-size: 1rem;
-    padding: 1rem;
 }
 
 .project-item{
+    padding: 1rem;
     color: #545555;
     background-color: white;
     box-shadow: 0 .2rem .4rem rgba(0,0,0,0.1);

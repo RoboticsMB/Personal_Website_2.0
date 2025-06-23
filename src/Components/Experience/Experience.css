@@ -14,6 +14,7 @@
 }
 
 .timeline{
+    padding: 1rem;
     position: relative;
     margin: 0 auto;
     padding-left: 1rem; /*This is so that the text is not right up against the line*/
