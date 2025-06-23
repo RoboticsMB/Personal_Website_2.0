@@ -18,7 +18,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .contact-container p{
@@ -43,6 +43,18 @@
     color: #145fe1;
 }
 
+.contact-type h4{
+    font-weight: 500;
+    text-shadow: .025rem 0 0 currentColor;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+}
+
+.contact-type p{
+    margin-top: .5rem;
+    margin-left: 1.9rem;
+}
+
 .contact-form form{
     display: flex;
     flex-direction: column;
@@ -53,21 +65,30 @@
 }
 
 .contact-form input{
+    border: .1rem solid #d4d5d7;
     border-radius: 0.5rem;
     height: 2rem;
 }
 
 .contact-form textarea{
     border-radius: 0.5rem;
-    height: 10rem;
+    border: .1rem solid #d4d5d7;
+    height: 9rem;
     resize: vertical;
 }
 
 .contact-form button{
-    font-size: 1.1rem;
+    cursor: pointer;
+    font-size: .9rem;
     margin: 2rem 0rem;
     padding: 1rem;
+    width: 10rem;
+    border: .1rem solid #d4d5d7;
     border-radius: .5rem;
     background: #145fe1;
     color: white;
+}
+
+.contact-form button svg{
+    margin-right: 0.5rem;
 }

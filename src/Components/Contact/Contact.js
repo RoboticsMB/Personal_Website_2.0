@@ -1,6 +1,6 @@
 import './Contact.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faPhone, faLocationDot } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faPhone, faLocationDot, faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 function Contact(){
@@ -56,7 +56,7 @@ function Contact(){
                         <input type="email" required/>
                         <p>Message</p>
                         <textarea required></textarea>
-                        <button type="submit">Send Message</button>
+                        <button type="submit"><FontAwesomeIcon icon={faPaperPlane} />Send Message</button>
                     </form>
                 </div>
             </div>
