@@ -1,0 +1,45 @@
+.footer-section{
+    background-color: #0c2a5e;
+    color: #86b6fa;
+    padding-top: 2rem;  
+    padding-bottom: 2rem;
+}
+
+.footer-section h2{
+    color: white;
+}
+
+.footer-links a{
+    font-size: .7rem;
+    margin-left: 2rem;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-links a:hover{
+    cursor: pointer;
+    color: #86b6fa
+}
+
+.top-part{
+    padding: 0 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-part h2{
+    margin-bottom: 0.75rem;
+}
+
+.top-part p{
+    margin-top: 0.75rem;
+}
+
+.bottom-part{
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: .1rem solid #103472;
+    display: flex;
+    justify-content: center;
+}
