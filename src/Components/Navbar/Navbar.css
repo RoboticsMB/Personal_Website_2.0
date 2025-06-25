@@ -30,6 +30,15 @@
     color: #145fe1;
 }
 
+.hamburger span{
+    color: white;
+}
+
+.navbar.navbar-scrolled .hamburger span{
+    color: #545555;
+}
+
+
 /*Settings for the encompassing div*/
 .navbar-container{
     display: flex;
@@ -57,6 +66,10 @@
 
 .navbar.navbar-scrolled .navbar-container a{
     color: #545555;
+}
+
+.navbar.navbar-scrolled .mobile-menu a{
+    color: white !important;
 }
 
 /*Settings for the encompassing mobile menu div*/
