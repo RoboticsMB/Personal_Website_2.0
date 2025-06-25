@@ -7,8 +7,8 @@ function About(){
                 <div className="about-image"><img src="./Matthew_Bandos_Photo.jpg" alt="Matthew Bandos"/>
                 </div>
                 <div className="about-text">
-                    <p>I am Matthew Bandos, a college student passionate about computer science and robotics. 
-                        From a young age, I have been captivated by the ideas of automation and autonomous behavior, 
+                    <p>I'm a college student passionate about computer science and robotics. 
+                        Since joining my first roboitcs team in middle school, I have been captivated by the ideas of automation and autonomous behavior, 
                         and such fascination drives my learning. 
                         I am constantly seeking opportunities to learn and expand my knowledge in the tech industry. 
                         And one day, I hope to leverage all my experiences to design grand
