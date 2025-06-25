@@ -11,7 +11,7 @@ function Experience(){
             date: "June 2025 - August 2025",
             summary: "Developed customer solutions as part of the MST Division. Worked with a team of engineers to design, implement, and test software components.",
             responsibilites: [
-                "Delivered several software products to foreign entities",
+                "Delivered several software products to clients",
                 "Wrote technical reports for software",
                 "Assisted in high-level design of solutions",
                 "Performed software intergration"
