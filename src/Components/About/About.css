@@ -38,6 +38,8 @@
 }
 
 .about-text{
+    padding-left: 1rem;
+    padding-right: 1rem;
     max-width: 35rem;
     text-align: left;
     line-height: 1.75rem;

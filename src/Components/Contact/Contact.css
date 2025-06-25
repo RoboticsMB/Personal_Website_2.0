@@ -30,7 +30,7 @@
 .contact-form{
     flex: 1 1 25rem;
     max-width: 30rem;
-    min-width: 20rem;
+    min-width: 10rem;
 }
 
 .contact-info h3,
@@ -65,16 +65,20 @@
 }
 
 .contact-form input{
+    font-family: 'Manrope', sans-serif;
     border: .1rem solid #d4d5d7;
     border-radius: 0.5rem;
     height: 2rem;
+    padding: .25rem;
 }
 
 .contact-form textarea{
+    font-family: 'Manrope', sans-serif;
     border-radius: 0.5rem;
     border: .1rem solid #d4d5d7;
     height: 9rem;
     resize: vertical;
+    padding: .25rem;
 }
 
 .contact-form button{
@@ -91,4 +95,8 @@
 
 .contact-form button svg{
     margin-right: 0.5rem;
+}
+
+.contact-form button:hover{
+    background-color: #0b3987;
 }
